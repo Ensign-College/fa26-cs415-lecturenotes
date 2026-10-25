@@ -29,6 +29,20 @@ $ git pull origin master
 ## Table of Contents
 
 
+### Module 1 - Database Container and API
+01. [Monday, October 26](./Module1/Lec01-Mon_Oct_26/README.md)
+	* [Today's Spiritual Thought](./Module1/Lec01-Mon_Oct_26/README.md#todays-spiritual-thought)
+	* [Course Overview](./Module1/Lec01-Mon_Oct_26/README.md#course-overview)
+	* [Get To Know Your Professor](./Module1/Lec01-Mon_Oct_26/README.md#get-to-know-your-professor)
+	* [Get To Know Each Other](./Module1/Lec01-Mon_Oct_26/README.md#get-to-know-each-other)
+	* [Submitting Today's Exit Ticket](./Module1/Lec01-Mon_Oct_26/README.md#submitting-todays-exit-ticket)
+	* [GitHub](./Module1/Lec01-Mon_Oct_26/README.md#github)
+	* [Databases and Schemas](./Module1/Lec01-Mon_Oct_26/README.md#databases-and-schemas)
+	* [Break](./Module1/Lec01-Mon_Oct_26/README.md#break)
+	* [Work Time: Website Database Schema Diagram](./Module1/Lec01-Mon_Oct_26/README.md#work-time-website-database-schema-diagram)
+	* [Wrap Up & Parting Thoughts](./Module1/Lec01-Mon_Oct_26/README.md#wrap-up--parting-thoughts)
+
+
 
 ## Creating a comprehensive study guide from individual lecture notes files
 
