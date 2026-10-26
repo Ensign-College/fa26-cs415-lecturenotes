@@ -1,4 +1,4 @@
-ï»¿CS415 - Monday, October 26 - Lecture 1 - Module 1
+CS415 - Monday, October 26 - Lecture 1 - Module 1
 
 # Topics:
 * [Today's Spiritual Thought](#todays-spiritual-thought)
