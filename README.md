@@ -41,6 +41,15 @@ $ git pull origin master
 	* [Break](./Module1/Lec01-Mon_Oct_26/README.md#break)
 	* [Work Time: Website Database Schema Diagram](./Module1/Lec01-Mon_Oct_26/README.md#work-time-website-database-schema-diagram)
 	* [Wrap Up & Parting Thoughts](./Module1/Lec01-Mon_Oct_26/README.md#wrap-up--parting-thoughts)
+02. [Wednesday, October 28](./Module1/Lec02-Wed_Oct_28/README.md)
+	* [Today's Spiritual Thought](./Module1/Lec02-Wed_Oct_28/README.md#todays-spiritual-thought)
+	* [AWS Academy](./Module1/Lec02-Wed_Oct_28/README.md#aws-academy)
+	* [Docker: Run a Container](./Module1/Lec02-Wed_Oct_28/README.md#docker-run-a-container)
+	* [Docker Compose](./Module1/Lec02-Wed_Oct_28/README.md#docker-compose)
+	* [Break](./Module1/Lec02-Wed_Oct_28/README.md#break)
+	* [Work Time](./Module1/Lec02-Wed_Oct_28/README.md#work-time)
+	* [Submitting Today's Exit Ticket](./Module1/Lec02-Wed_Oct_28/README.md#submitting-todays-exit-ticket)
+	* [Wrap Up & Parting Thoughts](./Module1/Lec02-Wed_Oct_28/README.md#wrap-up--parting-thoughts)
 
 
 
