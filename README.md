@@ -64,6 +64,16 @@ $ git pull origin master
 	* [Work Time](./Module2/Lec03-Mon_Nov_02/README.md#work-time)
 	* [Submitting Today's Exit Ticket](./Module2/Lec03-Mon_Nov_02/README.md#submitting-todays-exit-ticket)
 	* [Wrap Up & Parting Thoughts](./Module2/Lec03-Mon_Nov_02/README.md#wrap-up--parting-thoughts)
+04. [Wednesday, November 04](./Module2/Lec04-Wed_Nov_04/README.md)
+	* [Today's Spiritual Thought](./Module2/Lec04-Wed_Nov_04/README.md#todays-spiritual-thought)
+	* [Check-In and Q&A](./Module2/Lec04-Wed_Nov_04/README.md#check-in-and-qa)
+	* [How a Request Flows Through Django REST Framework](./Module2/Lec04-Wed_Nov_04/README.md#how-a-request-flows-through-django-rest-framework)
+	* [Django Setup and Connecting to the Database](./Module2/Lec04-Wed_Nov_04/README.md#django-setup-and-connecting-to-the-database)
+	* [Break](./Module2/Lec04-Wed_Nov_04/README.md#break)
+	* [Your First GET Endpoint: users](./Module2/Lec04-Wed_Nov_04/README.md#your-first-get-endpoint-users)
+	* [Work Time](./Module2/Lec04-Wed_Nov_04/README.md#work-time)
+	* [Submitting Today's Exit Ticket](./Module2/Lec04-Wed_Nov_04/README.md#submitting-todays-exit-ticket)
+	* [Wrap Up & Parting Thoughts](./Module2/Lec04-Wed_Nov_04/README.md#wrap-up--parting-thoughts)
 
 
 
