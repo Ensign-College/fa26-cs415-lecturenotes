@@ -16,7 +16,7 @@ CS415 - Monday, November 02 - Lecture 3 - Module 2
 ------------------------------------------------------------
 # Action Items
 
-0.  Song *Hymn: #85 [How Firm a Foundation](https://www.churchofjesuschrist.org/media/music/songs/how-firm-a-foundation)
+0.  Song *Hymn: #85 [How Firm a Foundation](https://www.churchofjesuschrist.org/media/music/songs/how-firm-a-foundation)*
 0.  Prayer
 0.  Spiritual Thought
 0.  Week 2 Overview and Q&A
