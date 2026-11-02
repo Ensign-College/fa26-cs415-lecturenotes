@@ -56,7 +56,7 @@ $ git pull origin master
 03. [Monday, November 02](./Module2/Lec03-Mon_Nov_02/README.md)
 	* [Today's Spiritual Thought](./Module2/Lec03-Mon_Nov_02/README.md#todays-spiritual-thought)
 	* [Week 2 Overview and Q&A](./Module2/Lec03-Mon_Nov_02/README.md#week-2-overview-and-qa)
-	* [What Is an API, and Why Does Organized Data Matter](./Module2/Lec03-Mon_Nov_02/README.md#what-is-an-api-and-why-does-organized-data-matter)
+	* [What is an Application Programming Interface (API)](./Module2/Lec03-Mon_Nov_02/README.md#what-is-an-application-programming-interface-api)
 	* [Postgres in a Container: Dockerfile and Compose](./Module2/Lec03-Mon_Nov_02/README.md#postgres-in-a-container-dockerfile-and-compose)
 	* [Break](./Module2/Lec03-Mon_Nov_02/README.md#break)
 	* [SQL Init Scripts: Database, Tables, and Seed Data](./Module2/Lec03-Mon_Nov_02/README.md#sql-init-scripts-database-tables-and-seed-data)

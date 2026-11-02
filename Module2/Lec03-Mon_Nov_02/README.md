@@ -3,7 +3,7 @@ CS415 - Monday, November 02 - Lecture 3 - Module 2
 # Topics:
 * [Today's Spiritual Thought](#todays-spiritual-thought)
 * [Week 2 Overview and Q&A](#week-2-overview-and-qa)
-* [What Is an API, and Why Does Organized Data Matter](#what-is-an-api-and-why-does-organized-data-matter)
+* [What is an Application Programming Interface (API)](#what-is-an-application-programming-interface-api)
 * [Postgres in a Container: Dockerfile and Compose](#postgres-in-a-container-dockerfile-and-compose)
 * [Break](#break)
 * [SQL Init Scripts: Database, Tables, and Seed Data](#sql-init-scripts-database-tables-and-seed-data)
@@ -16,6 +16,7 @@ CS415 - Monday, November 02 - Lecture 3 - Module 2
 ------------------------------------------------------------
 # Action Items
 
+0.  Song *Hymn: #85 [How Firm a Foundation](https://www.churchofjesuschrist.org/media/music/songs/how-firm-a-foundation)
 0.  Prayer
 0.  Spiritual Thought
 0.  Week 2 Overview and Q&A
@@ -35,9 +36,26 @@ CS415 - Monday, November 02 - Lecture 3 - Module 2
 >
 > -- [Hebrews 13:8](https://www.churchofjesuschrist.org/study/scriptures/nt/heb/13?lang=eng&id=p8#p8)
 
+> And ye may know that he is, [...] the same today and tomorrow, and forever.
+>
+> -- [Moroni 10:7](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng&id=p7#p7)
+
+> For do we not read that God is the same yesterday, today, and forever, and in
+> him there is no variableness neither shadow of changing?
+>
+> -- [Mormon 9:9](https://www.churchofjesuschrist.org/study/scriptures/bofm/morm/9?lang=eng&id=p9#p9)
+
+> **11** Proving to the world that the holy scriptures are true, and that God does
+> inspire men and call them to his holy work in this age and generation, as
+> well as in generations of old;
+>
+> **12** Thereby showing that he is the same God yesterday, today, and forever. Amen.
+>
+> -- [D&C 20:11-12](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/20?lang=eng&id=p11-p12#p11)
+
 A Docker container can be destroyed and rebuilt in seconds, and it comes back exactly the same way each time because the instructions that describe it never change. Engineers depend on this feature to increase the reliability of the systems they build. Only by building layer upon dependable layer can they have any assurance that their system will remain functional throughout its lifecycle.
 
-In our day-to-day lives we can likewise rely on the Savior: our circumstances change, but He does not. As you build your life one dependable layer at a time, what do you need to count on?
+In our day-to-day lives we can likewise rely on the Savior. While our circumstances may change, He does not. In what changing circumstances has the Savior been there for you?
 
 
 # Week 2 Overview and Q&A
@@ -69,26 +87,49 @@ Before we start: is Docker Desktop installed and running on your computer? Do yo
 *Check:* What did you build in Week 1 that you will use again today?
 
 
-# What Is an API, and Why Does Organized Data Matter?
+# What is an Application Programming Interface (API)?
 
-An **API** (application programming interface) is a menu that one program offers to another. The client asks for something by name and gets a predictable answer, without seeing how the kitchen works.
+The traditional definition of API referred to libraries of code used in a programming environment.  Historically, an API included:
 
-## How a web API answers
+*   Packages you can import/include into a program
+*   Variables that are defined (global or within a namespace)
+*   Functions (and methods) that can be called
+*   Data types taken as parameters and returned as values
+*   Classes and objects that can be instantiated
+
+You can think of an API as a *menu of offerings* that one program serves to another. To take this metaphor in the direction of a restaurant, a *client* orders something from the menu and gets their expected order without needing to know how it was prepared in the kitchen.
+
+More recently, the concept of API covers protocols used to facilitate communication between systems. Nowadays when you say "API," most people will think of a "web API."
+
+A web API might describe:
+
+*   The URLs that data may be retrieved from or sent to
+*   What format that data will be presented in (i.e. XML, JSON, binary, etc.)
+*   How a user can authenticate themselves to the system, and how many system resources they are allowed to consume
+
+In this course you'll study both kinds of APIs.
+
+
+## How a web API works
 
 0.  A client (a browser, Postman, or a web page) sends an **HTTP request** to a URL
-0.  The server finds the code that handles that URL
+0.  The server on the receiving end calls a function or program that handle that particular URL
 0.  The code gets the data it needs from a database
-0.  The server sends back an **HTTP response**, usually as **JSON**, a plain-text format for structured data
+0.  Finally, the server sends back an **HTTP response** with the clients requested information
+    -   Often this response takes the form of **JSON**, a plain-text format for structured data
+    -   However, any kind of appropriate data can be sent to the client (binary data for images, sounds, or movies; plain text or Markdown; structured text like XML, etc.)
+
 
 ## Why organized data matters
 
 An API can only return data as well as it is stored. In your ERD, a `WebUser` has many addresses. Because addresses live in their own `UserAddress` table linked by a key, an API can return one user, one address, or all of them without repeating itself.
 
-If everything lived in one messy table, every answer would be harder to find, easier to get wrong, and slower to change.
+If everything lived in one messy table, every answer would be harder to find, easier to get wrong, and slower to change. Often, excessive data would be sent back to the client, wasting bandwidth and putting the burden of sorting it out on the client.
+
 
 ## Where this is going
 
-By the end of next meeting, you will open a URL in a browser and see rows from your own database as JSON. Today you build the database it will read from.
+By the end of our next meeting, you will open a URL in a browser and see rows from your own database as JSON. Today you build the database it will read from.
 
 *Check:* If all user and address data lived in one messy table, what would get harder for an API?
 
@@ -190,7 +231,7 @@ pgAdmin is an optional visual tool for the same job. It is described at the bott
 
 Use the rest of class on your assignments while I help:
 
-0.  Get your container running with port 5432, following the [PostgreSQL Database](https://ensign.instructure.com/courses/27288/pages/postgresql-database) page
+0.  Get your container running with port `5432`, following the [PostgreSQL Database](https://ensign.instructure.com/courses/27288/pages/postgresql-database) page
 0.  Finish your [seed data for the remaining tables](https://ensign.instructure.com/courses/27288/assignments/1629928)
 
 
