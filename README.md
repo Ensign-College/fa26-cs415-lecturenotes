@@ -65,7 +65,7 @@ $ git pull origin master
 	* [Submitting Today's Exit Ticket](./Module2/Lec03-Mon_Nov_02/README.md#submitting-todays-exit-ticket)
 	* [Wrap Up & Parting Thoughts](./Module2/Lec03-Mon_Nov_02/README.md#wrap-up--parting-thoughts)
 04. [Wednesday, November 04](./Module2/Lec04-Wed_Nov_04/README.md)
-	* [Today's Spiritual Thought](./Module2/Lec04-Wed_Nov_04/README.md#todays-spiritual-thought)
+	* [Opening Exercises](./Module2/Lec04-Wed_Nov_04/README.md#opening-exercises)
 	* [Check-In and Q&A](./Module2/Lec04-Wed_Nov_04/README.md#check-in-and-qa)
 	* [Submitting Today's Exit Ticket](./Module2/Lec04-Wed_Nov_04/README.md#submitting-todays-exit-ticket)
 	* [The Django Web Application Framework](./Module2/Lec04-Wed_Nov_04/README.md#the-django-web-application-framework)

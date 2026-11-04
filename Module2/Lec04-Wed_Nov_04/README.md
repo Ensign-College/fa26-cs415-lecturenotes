@@ -1,7 +1,7 @@
 CS415 - Wednesday, November 04 - Lecture 4 - Module 2
 
 # Topics:
-* [Today's Spiritual Thought](#todays-spiritual-thought)
+* [Opening Exercises](#opening-exercises)
 * [Check-In and Q&A](#check-in-and-qa)
 * [Submitting Today's Exit Ticket](#submitting-todays-exit-ticket)
 * [The Django Web Application Framework](#the-django-web-application-framework)
@@ -14,33 +14,25 @@ CS415 - Wednesday, November 04 - Lecture 4 - Module 2
 
 
 ------------------------------------------------------------
-# Action Items
+# Opening Exercises
 
-0.  Song *Hymn: #19 [We Thank Thee, O God, for a Prophet](https://www.churchofjesuschrist.org/media/music/songs/we-thank-thee-o-god-for-a-prophet)*
-0.  Prayer
-0.  Spiritual Thought
-0.  Check-In and Q&A
-0.  How a Request Flows Through Django REST Framework
-0.  Django Setup and Connecting to the Database
-0.  Your First GET Endpoint: users/
-0.  Break
-0.  Work Time
-0.  Wrap Up & Parting Thoughts
+### Song *Hymn: #19 [We Thank Thee, O God, for a Prophet](https://www.churchofjesuschrist.org/media/music/songs/we-thank-thee-o-god-for-a-prophet)*
 
+### Prayer
 
-# Today's Spiritual Thought
+### Today's Spiritual Thought
 
 Since we last met, what is one small step you took that worked? The Lord teaches line upon line, and this course is built the same way: each week adds to the last. Today the line is one API endpoint, and by the end of the week you will have seven.
 
 
-## Scripture
+### Scripture
 
 > For he will give unto the faithful line upon line, precept upon precept; and I will try you and prove you herewith.
 >
 > -- [Doctrine and Covenants 98:12](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/98?lang=eng&id=p12#p12)
 
 
-## Discussion Questions
+### Discussion Questions
 
 0.  Where did you feel stuck this week, and what helped you get unstuck?
 0.  How can you help a classmate take one small step in our time together today?
