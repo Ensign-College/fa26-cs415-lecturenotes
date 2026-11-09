@@ -3,11 +3,11 @@ CS415 - Monday, November 09 - Lecture 5 - Module 3
 # Topics:
 * [Opening Exercises](#opening-exercises)
 * [Week 3 Overview and Check-In](#week-3-overview-and-check-in)
-* [HTTP Methods: Designing a Website's Endpoints](#http-methods-designing-a-websites-endpoints)
 * [Swagger: Documenting Your API](#swagger-documenting-your-api)
 * [Filtered `GET` Endpoints](#filtered-get-endpoints)
 * [Break](#break)
 * [Work Time](#work-time)
+* [Swagger Swap: Can a Classmate Use Your API](#swagger-swap-can-a-classmate-use-your-api)
 * [Submitting Today's Exit Ticket](#submitting-todays-exit-ticket)
 * [Wrap Up & Parting Thoughts](#wrap-up--parting-thoughts)
 
@@ -86,43 +86,6 @@ Both are due Saturday, November 14.
 Do all seven of your Week 2 `GET` endpoints work? If not, finish them first during work time, because everything this week is built on them. Ask for help early. You are the agent of your own learning, and class time is for working while I help.
 
 *Check:* Which file from Week 2 will you change most this week, and why?
-
-
-# HTTP Methods: Designing a Website's Endpoints
-
-Every HTTP request names a **method** that says what the client wants done.
-
-| Method | What it does | In our project |
-| ------ | ------------ | -------------- |
-| `GET`    | Reads data | Built in Week 2 |
-| `POST`   | Creates a new record | This week |
-| `PATCH`  | Changes some fields of an existing record | This week |
-| `PUT`    | Replaces a whole record | Not built |
-| `DELETE` | Removes a record | Not built |
-
-
-## Design exercise
-
-Picture the website our database supports. For each feature, which method and which URL would you use? We will fill these in on the board together.
-
-*   Sign up for an account
-*   View my profile
-*   Change my email address
-*   Add a phone number
-*   Close my account
-*   Log in
-
-
-## Why not let the website talk to the database directly?
-
-The API stands between users and the database. Because it does, it can:
-
-*   Keep columns like `password` from ever being sent out
-*   Reject bad input before it reaches a table
-*   Let the database change without breaking every website and app that uses it
-*   Keep the database login on the server, where users never see it
-
-*Check:* Why is logging in usually a `POST` and not a `GET`, even though it does not add a row?
 
 
 # Swagger: Documenting Your API
@@ -213,6 +176,23 @@ Use the rest of class on your assignments while I help:
 
 
 Push your work to GitHub as you go. If you finish early, help a classmate who is stuck.
+
+
+# Swagger Swap: Can a Classmate Use Your API?
+
+Good documentation lets a stranger use your API without asking you anything. Let's test yours.
+
+0.  Pair up and trade seats. Leave your database and server running
+0.  Using only your partner's `/swagger/` page, do these three things:
+    1.  GET one user
+    2.  POST a new phone type
+    3.  PATCH the phone type you just made
+0.  The owner stays silent while the partner works. If your partner has not built phone types yet, use any table that has POST and PATCH
+0.  Trade back. Explain one of your endpoints out loud to your partner: its URL, its method, what it expects, and what it returns
+0.  Tell your partner one thing their Swagger page did not make clear
+
+
+*Check:* What did your partner need that your Swagger page did not tell them?
 
 
 # Submitting Today's Exit Ticket

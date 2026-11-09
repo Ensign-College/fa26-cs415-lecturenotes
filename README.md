@@ -81,11 +81,11 @@ $ git pull origin master
 05. [Monday, November 09](./Module3/Lec05-Mon_Nov_09/README.md)
 	* [Opening Exercises](./Module3/Lec05-Mon_Nov_09/README.md#opening-exercises)
 	* [Week 3 Overview and Check-In](./Module3/Lec05-Mon_Nov_09/README.md#week-3-overview-and-check-in)
-	* [HTTP Methods: Designing a Website's Endpoints](./Module3/Lec05-Mon_Nov_09/README.md#http-methods-designing-a-websites-endpoints)
 	* [Swagger: Documenting Your API](./Module3/Lec05-Mon_Nov_09/README.md#swagger-documenting-your-api)
 	* [Filtered `GET` Endpoints](./Module3/Lec05-Mon_Nov_09/README.md#filtered-get-endpoints)
 	* [Break](./Module3/Lec05-Mon_Nov_09/README.md#break)
 	* [Work Time](./Module3/Lec05-Mon_Nov_09/README.md#work-time)
+	* [Swagger Swap: Can a Classmate Use Your API](./Module3/Lec05-Mon_Nov_09/README.md#swagger-swap-can-a-classmate-use-your-api)
 	* [Submitting Today's Exit Ticket](./Module3/Lec05-Mon_Nov_09/README.md#submitting-todays-exit-ticket)
 	* [Wrap Up & Parting Thoughts](./Module3/Lec05-Mon_Nov_09/README.md#wrap-up--parting-thoughts)
 
