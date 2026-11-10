@@ -88,6 +88,15 @@ $ git pull origin master
 	* [Swagger Swap: Can a Classmate Use Your API](./Module3/Lec05-Mon_Nov_09/README.md#swagger-swap-can-a-classmate-use-your-api)
 	* [Submitting Today's Exit Ticket](./Module3/Lec05-Mon_Nov_09/README.md#submitting-todays-exit-ticket)
 	* [Wrap Up & Parting Thoughts](./Module3/Lec05-Mon_Nov_09/README.md#wrap-up--parting-thoughts)
+06. [Wednesday, November 11](./Module3/Lec06-Wed_Nov_11/README.md)
+	* [Opening Exercises](./Module3/Lec06-Wed_Nov_11/README.md#opening-exercises)
+	* [HTTP Methods: Designing a Website's Endpoints](./Module3/Lec06-Wed_Nov_11/README.md#http-methods-designing-a-websites-endpoints)
+	* [Check-In and Q&A](./Module3/Lec06-Wed_Nov_11/README.md#check-in-and-qa)
+	* [POST Endpoints: Creating Records](./Module3/Lec06-Wed_Nov_11/README.md#post-endpoints-creating-records)
+	* [PATCH Endpoints: Updating Records](./Module3/Lec06-Wed_Nov_11/README.md#patch-endpoints-updating-records)
+	* [Work Time](./Module3/Lec06-Wed_Nov_11/README.md#work-time)
+	* [Submitting Today's Exit Ticket](./Module3/Lec06-Wed_Nov_11/README.md#submitting-todays-exit-ticket)
+	* [Wrap Up & Parting Thoughts](./Module3/Lec06-Wed_Nov_11/README.md#wrap-up--parting-thoughts)
 
 
 
