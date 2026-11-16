@@ -98,6 +98,20 @@ $ git pull origin master
 	* [Submitting Today's Exit Ticket](./Module3/Lec06-Wed_Nov_11/README.md#submitting-todays-exit-ticket)
 	* [Wrap Up & Parting Thoughts](./Module3/Lec06-Wed_Nov_11/README.md#wrap-up--parting-thoughts)
 
+### Module 4 - AWS Elastic Container Service
+
+07. [Monday, November 16](./Module4/Lec07-Mon_Nov_16/README.md)
+	* [Opening Exercises](./Module4/Lec07-Mon_Nov_16/README.md#opening-exercises)
+	* [Week 4 Overview and Mid-Term Preview](./Module4/Lec07-Mon_Nov_16/README.md#week-4-overview-and-mid-term-preview)
+	* [Why Separate Servers](./Module4/Lec07-Mon_Nov_16/README.md#why-separate-servers)
+	* [The AWS Console and Elastic IPs](./Module4/Lec07-Mon_Nov_16/README.md#the-aws-console-and-elastic-ips)
+	* [A Database Server: EC2 and PostgreSQL](./Module4/Lec07-Mon_Nov_16/README.md#a-database-server-ec2-and-postgresql)
+	* [Reaching Your Database From Home](./Module4/Lec07-Mon_Nov_16/README.md#reaching-your-database-from-home)
+	* [Break](./Module4/Lec07-Mon_Nov_16/README.md#break)
+	* [Work Time](./Module4/Lec07-Mon_Nov_16/README.md#work-time)
+	* [Submitting Today's Exit Ticket](./Module4/Lec07-Mon_Nov_16/README.md#submitting-todays-exit-ticket)
+	* [Wrap Up & Parting Thoughts](./Module4/Lec07-Mon_Nov_16/README.md#wrap-up--parting-thoughts)
+
 
 
 ## Creating a comprehensive study guide from individual lecture notes files
