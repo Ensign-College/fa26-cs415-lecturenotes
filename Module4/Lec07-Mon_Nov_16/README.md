@@ -18,7 +18,7 @@ CS415 - Monday, November 16 - Lecture 7 - Module 4
 
 0.  I have graded all week 1 and week 2 submissions. I will work on your week 3 submissions soon.
     -   I have begun grading your attendance based on responses to the announcements made on lecture days.
-    -   Your score on the **Roll Call Attendance** assignment is $`frac{no. responses you made}{no. lectures that occurred since you enrolled}`$.
+    -   Your score on the **Roll Call Attendance** assignment is $`\frac{no. responses you made}{no. lectures that occurred since you enrolled}`$.
         -   You are not penalized for lectures missed because you enrolled late
     -   Everyone gets 1 freebie. If you need to miss more than one lecture you need to get it excused by me.
     -   If you forgot to respond to an announcement for a day that you were in class, those points are lost as I have no other way to verify your attendance.
