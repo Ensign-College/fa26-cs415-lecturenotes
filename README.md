@@ -111,6 +111,16 @@ $ git pull origin master
 	* [Work Time](./Module4/Lec07-Mon_Nov_16/README.md#work-time)
 	* [Submitting Today's Exit Ticket](./Module4/Lec07-Mon_Nov_16/README.md#submitting-todays-exit-ticket)
 	* [Wrap Up & Parting Thoughts](./Module4/Lec07-Mon_Nov_16/README.md#wrap-up--parting-thoughts)
+08. [Wednesday, November 18](./Module4/Lec08-Wed_Nov_18/README.md)
+	* [Opening Exercises](./Module4/Lec08-Wed_Nov_18/README.md#opening-exercises)
+	* [Check-In: Is Your Database in AWS](./Module4/Lec08-Wed_Nov_18/README.md#check-in-is-your-database-in-aws)
+	* [Point Django at AWS](./Module4/Lec08-Wed_Nov_18/README.md#point-django-at-aws)
+	* [The API in a Container](./Module4/Lec08-Wed_Nov_18/README.md#the-api-in-a-container)
+	* [Trace a Request, Read the Logs](./Module4/Lec08-Wed_Nov_18/README.md#trace-a-request-read-the-logs)
+	* [Mid-Term Screenshot Checklist](./Module4/Lec08-Wed_Nov_18/README.md#mid-term-screenshot-checklist)
+	* [Work Time](./Module4/Lec08-Wed_Nov_18/README.md#work-time)
+	* [Submitting Today's Exit Ticket](./Module4/Lec08-Wed_Nov_18/README.md#submitting-todays-exit-ticket)
+	* [Wrap Up & Parting Thoughts](./Module4/Lec08-Wed_Nov_18/README.md#wrap-up--parting-thoughts)
 
 
 
