@@ -122,6 +122,18 @@ $ git pull origin master
 	* [Submitting Today's Exit Ticket](./Module4/Lec08-Wed_Nov_18/README.md#submitting-todays-exit-ticket)
 	* [Wrap Up & Parting Thoughts](./Module4/Lec08-Wed_Nov_18/README.md#wrap-up--parting-thoughts)
 
+### Module 5 - CI/CD and GitHub Actions
+
+09. [Monday, November 23](./Module5/Lec09-Mon_Nov_23/README.md)
+	* [Opening Exercises](./Module5/Lec09-Mon_Nov_23/README.md#opening-exercises)
+	* [Submitting Today's Exit Ticket](./Module5/Lec09-Mon_Nov_23/README.md#submitting-todays-exit-ticket)
+	* [Why Are We Learning This](./Module5/Lec09-Mon_Nov_23/README.md#why-are-we-learning-this)
+	* [Week 5: Your API in the Cloud](./Module5/Lec09-Mon_Nov_23/README.md#week-5-your-api-in-the-cloud)
+	* [Push Your Image to ECR](./Module5/Lec09-Mon_Nov_23/README.md#push-your-image-to-ecr)
+	* [Break](./Module5/Lec09-Mon_Nov_23/README.md#break)
+	* [Work Time](./Module5/Lec09-Mon_Nov_23/README.md#work-time)
+	* [Wrap Up & Parting Thoughts](./Module5/Lec09-Mon_Nov_23/README.md#wrap-up--parting-thoughts)
+
 
 
 ## Creating a comprehensive study guide from individual lecture notes files
