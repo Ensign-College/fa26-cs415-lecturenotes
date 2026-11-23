@@ -79,7 +79,6 @@ Talk these over with a neighbor first. Then I will call on people. Answer in you
 0.  Why does your API now run in a container with Apache, instead of with `python manage.py runserver`?
 0.  Your `docker-compose.yml` maps ports `80:80`. What do the two numbers mean? Trace a request to `http://localhost/users` from your browser to your database.
 0.  Your container is running. `/swagger` loads, but `/users` returns a 500 error. How would you troubleshoot it? Where do you look first?
-0.  Your `Dockerfile` starts with `FROM --platform=linux/amd64`. What does that do, and why might it matter once your container runs on a computer that is not yours?
 0.  What is the difference between **stopping** and **terminating** your EC2 instance? Why should you care?
 
 
@@ -155,7 +154,7 @@ Your code is copied into the image when you build it. Check these first, so a mi
 
 *   In `settings.py`, `HOST` is your `cs415_db_ip`, not `localhost`
 *   In `settings.py`, `ALLOWED_HOSTS = ['*']`. Without it, Django answers `400 Bad Request` to any address but `localhost`
-*   The first line of your `Dockerfile` is `FROM --platform=linux/amd64 python:3.13-slim`. Fargate runs Intel/AMD processors, and an image built for an Apple-silicon Mac will not start there
+*   The first line of your `Dockerfile` is `FROM debian:trixie-slim`. Fargate runs Intel/AMD processors, and an image built for an Apple-silicon Mac will not start there
 
 
 ## Create the repository
@@ -171,25 +170,25 @@ Your code is copied into the image when you build it. Check these first, so a mi
 Run these in your `cs415_api` folder, where your `Dockerfile` and `docker-compose.yml` are.
 
 0.  Build the image. On an Apple-silicon Mac this can take several minutes:
-    ```
+    ```bash
     docker buildx bake --provenance=false
     ```
 0.  Give the image a second name, your repository's URI:
-    ```
+    ```bash
     docker tag image_cs415_api <ECR-repo-URI>
     ```
     Check that it appears in Docker Desktop under **Images**
 0.  Make sure the AWS CLI can reach your lab:
-    ```
+    ```bash
     aws sts get-caller-identity
     ```
 0.  Log Docker in to your registry. The **base URI** is your repository URI without `/cs415-ecr-api` on the end. Both places say `us-west-2`:
-    ```
+    ```bash
     aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin <ECR-base-URI>
     ```
     Wait for `Login Succeeded`
 0.  Push the image. Let it run through the break:
-    ```
+    ```bash
     docker push <ECR-repo-URI>
     ```
 0.  In the console, open your repository. You should see one image tagged `latest`
@@ -243,5 +242,16 @@ If you finish early, help a classmate who is stuck.
 ## What is next
 
 No class Wednesday. Happy Thanksgiving! We meet again Monday, November 30. Watch Canvas for updates.
+
+
+## Submitting Today's Exit Ticket
+
+Part of your grade in this class depends upon your attendance. You will help me record your attendance by following these steps:
+
+0.  Find the announcement in our Canvas course titled Module5/Lec09-Mon_Nov_23
+0.  Pick **one** to answer in your Canvas reply:
+    1.  In one sentence each, what do ECR, the Network Load Balancer, and ECS Fargate do in your project?
+    1.  How far did you get today: repository created, image pushed, load balancer created, service running?
+    1.  What is one thing about this week's AWS steps that you are still unsure about?
 
 
